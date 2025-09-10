@@ -1,7 +1,6 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './style.css';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -18,6 +17,9 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
+    <script type="module" src="/src/main.js"></script>
+    
+
   </div>
 `
 
